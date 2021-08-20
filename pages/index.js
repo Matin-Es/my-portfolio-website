@@ -11,7 +11,14 @@ export default function Home() {
         <NavBar />
         <div className="pl-20 flex">
           {" "}
-          <Image src="/../public/assets/img/mrb.png" width={350} height={499} />
+          <div className="min-w-max flex">
+            {" "}
+            <Image
+              src="/../public/assets/img/mrb.png"
+              width={350}
+              height={499}
+            />
+          </div>
           <div className="pl-48">
             <h1 className="text-5xl pb-3 text-gray-600">Mehrab Esmaili</h1>
             <div className="pb-11 absolute top-48">
