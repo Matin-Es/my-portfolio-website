@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: officecodepro-medium
+font link: https://github.com/nathco/Office-Code-Pro
+font author: Nathan Rutzky
+font author site: https://nath.co/
+Slogan Font: Neuton-Extralight.ttf
+
+icon designer: Ralf Schmitzer
+icon designer link: /ralfschmitzer
+        
+{"bg":"transparent","icon-gradient-0":"#3616AC","icon-gradient-1":"#E09BED","font":"#000000","slogan":"#141414"}
+      
