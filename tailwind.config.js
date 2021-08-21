@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         brandbg: `#F3F3F3`,
       },
+      spacing:{
+        'headingSpacing': '36rem',
+      }
     },
   },
   variants: {
