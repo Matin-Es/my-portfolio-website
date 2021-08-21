@@ -11,7 +11,7 @@ export default function Home() {
         <NavBar />
         <div className="pl-20 flex">
           {" "}
-          <div className="min-w-max flex">
+          <div className="min-w-max flex self-center">
             {" "}
             <Image
               src="/../public/assets/img/mrb.png"
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className="pl-48">
             <h1 className="text-5xl pb-3 text-gray-600">Mehrab Esmaili</h1>
-            <div className="pb-11 absolute top-48">
+            <div className="pb-11 w-72 h-1 top-48">
               <Typewriter
                 options={{
                   strings: [
