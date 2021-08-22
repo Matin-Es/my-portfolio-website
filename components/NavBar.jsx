@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <nav className="flex items-center">
-      <ul className="inline-flex text-xl pb-14 text-gray-500">
+    <nav className="flex items-center justify-center mx-auto">
+      <ul className="inline-flex text-xl pb-14 text-gray-500 ">
         <li className="ml-3 mr-10">
           {" "}
           <a href="#"> Home</a>
@@ -21,7 +21,7 @@ const NavBar = () => {
           <a href="#">Contact</a>{" "}
         </li>
       </ul>
-      <div className="ml-auto min-w-max">
+      <div className="relative ml-auto  min-w-max">
         <a href="/">
           {" "}
           <Image

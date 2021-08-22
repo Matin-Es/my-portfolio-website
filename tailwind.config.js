@@ -6,9 +6,14 @@ module.exports = {
       colors: {
         brandbg: `#F3F3F3`,
       },
-      spacing:{
-        'headingSpacing': '36rem',
-      }
+      spacing: {
+        headingSpacing: "33rem",
+     
+      },
+      maxWidth: {
+        skillBarsWidth: "102px",
+        testWidth:"100%"
+      },
     },
   },
   variants: {
