@@ -6,9 +6,55 @@ import Typewriter from "typewriter-effect";
 import "react-circular-progressbar/dist/styles.css";
 import SkillBars from "./../components/SkillBars";
 import { useState } from "react";
+import Card from "./../components/Card";
 
 const Home = (props) => {
   const [skills, setSkills] = useState([90, 80, 95, 95, 95]);
+  const [image, setImage] = useState([
+    "/../public/assets/icon/uiux_design.png",
+    "/../public/assets/icon/performance.png",
+    "/../public/assets/icon/seo.png",
+    "/../public/assets/icon/support.png",
+  ]);
+  const [title, settitle] = useState([
+    "UI/UX",
+    "Performance",
+    "SEO",
+    "Support",
+  ]);
+  const [description, setDescription] = useState([
+    <p>
+      Pace of world has affected <br /> people so we don't waste <br /> your
+      customer's time with
+      <br />
+      the great user experience <br /> and simplicity while keeping <br />
+      the beautiful appearance{" "}
+    </p>,
+    <p>
+      Performance is one of the most
+      <br /> important things in a website <br /> we provide you a website with
+      <br /> the latest and best
+      <br /> technologies released to keep
+      <br /> your website performance high
+      <br /> and satisfying
+    </p>,
+    <p>
+      a website without SEO is a <br /> dead website, we optimize your <br />{" "}
+      website for search engines to <br />
+      bring your website to the 1st
+      <br /> page of google to get the
+      <br /> highest amount of customers
+      <br /> and viewers
+    </p>,
+    <p>
+      We have our customers <br />
+      back like a soldier, we give <br />
+      them a long time support
+      <br /> to give them the best <br />
+      experiences as they are <br />
+      working with us
+    </p>,
+  ]);
 
   return (
     <body className="h-screen bg-brandbg font-sans">
@@ -91,7 +137,7 @@ const Home = (props) => {
           <div className="flex justify-center text-gray-500 text-2xl mt-12">
             <h2 id={styles.headingWithLines}>Other skills</h2>
           </div>
-          <div className="flex text-center justify-center mt-4 text-xl text-gray-400">
+          <div className="flex text-center justify-center mt-4 text-xl text-gray-400 pb-7">
             {" "}
             <p>
               You can see my other <br /> skills such as ts, git and...
@@ -102,6 +148,45 @@ const Home = (props) => {
           </div>
         </div>
       </section>
+      <div className="container mx-auto">
+        <div className="flex justify-center text-gray-500 text-2xl mt-7">
+          <h2 id={styles.headingWithLines}>Services we provide</h2>
+        </div>
+        <div className="flex justify-center mt-10">
+          <div className="mx-auto">
+            {" "}
+            <Card
+              image={image[0]}
+              title={title[0]}
+              description={description[0]}
+            />
+          </div>
+          <div className="mx-auto text-sm">
+            {" "}
+            <Card
+              image={image[1]}
+              title={title[1]}
+              description={description[1]}
+            />
+          </div>
+          <div className="mx-auto text-sm">
+            {" "}
+            <Card
+              image={image[2]}
+              title={title[2]}
+              description={description[2]}
+            />
+          </div>
+          <div className="mx-auto">
+            {" "}
+            <Card
+              image={image[3]}
+              title={title[3]}
+              description={description[3]}
+            />
+          </div>
+        </div>
+      </div>
     </body>
   );
 };
