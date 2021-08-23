@@ -80,7 +80,7 @@ const Home = (props) => {
               <Typewriter
                 options={{
                   strings: [
-                    "<span style=font-size:24px;color:#949494;>Senior ReactJS developer</span>",
+                    "<span style=font-size:24px;color:#949494;>Junior ReactJS developer</span>",
                   ],
                   autoStart: true,
                   loop: true,
@@ -148,7 +148,7 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <div className="container mx-auto">
+      <div className="container mx-auto pb-7">
         <div className="flex justify-center text-gray-500 text-2xl mt-7">
           <h2 id={styles.headingWithLines}>Services we provide</h2>
         </div>
@@ -187,6 +187,22 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      {/* <section className="bg-white pt-7 w-screen">
+        <div className="container mx-auto">
+          <div className="flex justify-center text-gray-500 text-2xl">
+            <h2 id={styles.headingWithLines}>My skills</h2>
+          </div>
+          <div className="flex justify-center">
+            <div className="border-2 object-cover">
+              <Image
+                src="/../public/assets/img/portfolio/1.jpg"
+                width={250}
+                height={200}
+              />
+            </div>
+          </div>
+        </div>
+      </section> */}
     </body>
   );
 };
