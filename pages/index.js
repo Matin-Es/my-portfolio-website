@@ -7,6 +7,7 @@ import "react-circular-progressbar/dist/styles.css";
 import SkillBars from "./../components/SkillBars";
 import { useState } from "react";
 import Card from "./../components/Card";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 
 const Home = (props) => {
   const [skills, setSkills] = useState([90, 80, 95, 95, 95]);
@@ -187,22 +188,80 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      {/* <section className="bg-white pt-7 w-screen">
+
+      <section className="bg-white pt-7 w-screen">
         <div className="container mx-auto">
           <div className="flex justify-center text-gray-500 text-2xl">
-            <h2 id={styles.headingWithLines}>My skills</h2>
+            <h2 id={styles.headingWithLines}>Works and Projects</h2>
           </div>
           <div className="flex justify-center">
-            <div className="border-2 object-cover">
-              <Image
-                src="/../public/assets/img/portfolio/1.jpg"
-                width={250}
-                height={200}
-              />
-            </div>
+            <SimpleReactLightbox>
+              <SRLWrapper>
+                <div className="p-7 grid grid-cols-1 md:grid-cols-4">
+                  <div className=" w-60 h-auto  m-5 rounded-4xl shadow-md">
+                    {" "}
+                    <a href="https://www.linkpicture.com/q/1_926.jpg">
+                      <img
+                        src="https://www.linkpicture.com/q/1_926.jpg"
+                        alt="Admin Panel"
+                      />
+                    </a>
+                  </div>
+                  <div className="shadow-lg rounded-3xl w-60 h-auto m-5">
+                    <a href="https://www.linkpicture.com/q/2_475.jpg">
+                      <img
+                        src="https://www.linkpicture.com/q/2_475.jpg"
+                        alt="Bahr Academy"
+                      />
+                    </a>
+                  </div>
+                  <div className="shadow-lg rounded-3xl w-60 h-auto m-5">
+                    <a href="https://www.linkpicture.com/q/3_305.jpg">
+                      <img
+                        src="https://www.linkpicture.com/q/3_305.jpg"
+                        alt="Varzesh 3"
+                      />
+                    </a>
+                  </div>
+                  <div className="shadow-lg rounded-3xl w-60 h-auto m-5">
+                    <a href="https://www.linkpicture.com/q/4_83.jpg">
+                      <img
+                        src="https://www.linkpicture.com/q/4_83.jpg"
+                        alt="Artist's personal website"
+                      />
+                    </a>
+                  </div>
+                  <div className="shadow-lg rounded-3xl w-60 h-auto m-5">
+                    <a href="https://www.linkpicture.com/q/5_99.jpg">
+                      <img
+                        src="https://www.linkpicture.com/q/5_99.jpg"
+                        alt="Shoe online shop"
+                      />
+                    </a>
+                  </div>
+                  <div className="shadow-lg rounded-3xl w-60 h-auto m-5">
+                    <a href="https://www.linkpicture.com/q/7_218.jpg">
+                      <img
+                        src="https://www.linkpicture.com/q/7_218.jpg"
+                        alt="Online investment website"
+                      />
+                    </a>
+                  </div>
+                  <div className="shadow-lg rounded-3xl w-60 h-auto m-5">
+                    <a href="https://www.linkpicture.com/q/6_86.jpg">
+                      <img
+                        src="https://www.linkpicture.com/q/6_86.jpg"
+                        alt="Shoe online shop"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </SRLWrapper>
+            </SimpleReactLightbox>
           </div>
         </div>
-      </section> */}
+      </section>
+     
     </body>
   );
 };
