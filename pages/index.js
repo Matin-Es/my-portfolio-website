@@ -9,6 +9,7 @@ import { useState } from "react";
 import ServiceCard from "../components/ServiceCard";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import PlanCard from "../components/planCard";
+import ContactForm from "../components/ContactForm";
 
 const Home = (props) => {
   const [skills, setSkills] = useState([90, 80, 95, 95, 95]);
@@ -333,6 +334,68 @@ const Home = (props) => {
               />
             </div>
           </div>
+        </div>
+        <section className="bg-white pt-7 w-screen ">
+          <div className="container mx-auto pb-5">
+            <div className="flex justify-center text-gray-500 text-2xl">
+              <h2 id={styles.headingWithLines}>Contatct me</h2>
+            </div>
+            <div className="flex justify-center">
+              <ContactForm />
+            </div>
+            <div className="flex justify-center mt-7">
+              <div>
+                <p>You can also contact me via: </p>
+              </div>
+              <div className="flex justify-center ml-2 mr-5">
+                <div className="mx-2">
+                  <a
+                    href="https://web.whatsapp.com/send?phone=%2B989333648797&text&app_absent=0"
+                    target="_blank"
+                  >
+                    <Image
+                      src="/../public/assets/icon/whatsapp.png"
+                      width={30}
+                      height={30}
+                    />
+                  </a>
+                </div>
+                <div className="mx-2">
+                  <a href="https://t.me/leviathanaxe" target="_blank">
+                    <Image
+                      src="/../public/assets/icon/telegram.png"
+                      width={30}
+                      height={30}
+                    />
+                  </a>
+                </div>
+                <div className="mx-2">
+                  <a
+                    href="https://www.instagram.com/maatin_es/"
+                    target="_blank"
+                  >
+                    <Image
+                      src="/../public/assets/icon/instagram.png"
+                      width={30}
+                      height={30}
+                    />
+                  </a>
+                </div>
+                <div className="mx-2">
+                  <a href="mailto:esmaili.matin82@gmail.com" target="_blank">
+                    <Image
+                      src="/../public/assets/icon/email.png"
+                      width={30}
+                      height={30}
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className="flex justify-center text-center m-3">
+          <p>©️ 2021 all rights reserved by Mehrab Esmaili</p>
         </div>
       </div>
     </body>
