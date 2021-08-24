@@ -290,6 +290,14 @@ const Home = (props) => {
                         />
                       </a>
                     </div>
+                    <div className="shadow-lg rounded-3xl w-60 h-auto m-5">
+                      <a href="https://www.linkpicture.com/q/8_179.jpg">
+                        <img
+                          src="https://www.linkpicture.com/q/8_179.jpg"
+                          alt="Auto aftermarket website"
+                        />
+                      </a>
+                    </div>
                   </div>
                 </SRLWrapper>
               </SimpleReactLightbox>
