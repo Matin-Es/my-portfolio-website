@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Card = (props) => {
+const ServiceCard = (props) => {
   return (
     <div className="text-center w-64 h-auto shadow-md rounded-2xl bg-white p-6">
       <Image src={props.image} width={45} height={45} />
@@ -12,4 +12,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default ServiceCard;
