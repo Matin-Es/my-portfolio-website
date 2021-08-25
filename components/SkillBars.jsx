@@ -2,7 +2,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 const SkillBars = (props) => {
   return (
-    <div className="max-w-skillBarsWidth max-h-full text-center text-2xl mt-16">
+    <div className="max-w-skillBarsWidth mx-10 max-h-full text-center text-2xl mt-16">
       <CircularProgressbar
         value={props.value}
         text={`${props.text}%`}

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const PlanCard = (props) => {
   return (
-    <div className="text-center w-64 h-auto shadow-md rounded-2xl bg-white p-6">
+    <div className="text-center w-64 mx-5 h-auto shadow-md rounded-2xl bg-white p-6">
       <Image src={props.planImage} width={45} height={45} />
       <h3 className="text-center text-2xl mt-1 text-gray-500 mb-5">
         {props.planTitle}
