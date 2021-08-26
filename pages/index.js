@@ -1,20 +1,20 @@
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import NavBar from "../components/NavBar";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Typewriter from "typewriter-effect";
-import "react-circular-progressbar/dist/styles.css";
+import NavBar from "../components/NavBar";
 import SkillBars from "./../components/SkillBars";
 import skillBars from "../services/skillBars";
 import ServiceCard from "../components/ServiceCard";
+import serviceCard from "../services/serviceCard";
+import WorkSamples from "../components/WorkSamples";
+import workSamples from "../services/workSamples";
 import PlanCard from "../components/planCard";
 import planCard from "../services/planCard";
 import ContactForm from "../components/ContactForm";
-import WorkSamples from "../components/WorkSamples";
-import workSamples from "../services/workSamples";
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import serviceCard from "../services/serviceCard";
+import styles from "../styles/Home.module.css";
+import "react-circular-progressbar/dist/styles.css";
 
-const Home = (props) => {
+const Home = () => {
   return (
     <body className="h-screen bg-brandbg font-sans ">
       <div className="overflow-hidden">
