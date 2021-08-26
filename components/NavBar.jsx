@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -21,16 +22,15 @@ const NavBar = () => {
           <a href="#">Contact</a>{" "}
         </li>
       </ul>
-      <div className="relative ml-auto  min-w-max">
-        <a href="/">
-          {" "}
+      <div className="relative ml-auto  min-w-max cursor-pointer">
+        <Link href="/" rel="noreferrer" passHref={true}>
           <Image
             src="/../public/assets/MehrabEs_Logo/vector/default.svg"
             width={195}
             height={120}
             alt="Logo"
           />
-        </a>
+        </Link>
       </div>
     </nav>
   );

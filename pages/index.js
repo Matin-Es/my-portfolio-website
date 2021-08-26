@@ -13,14 +13,18 @@ import planCard from "../services/planCard";
 import ContactForm from "../components/ContactForm";
 import styles from "../styles/Home.module.css";
 import "react-circular-progressbar/dist/styles.css";
+import ResponsiveNavBar from "../components/ResponsiveNavBar";
 
 const Home = () => {
   return (
     <body className="h-screen bg-brandbg font-sans ">
       <div className="overflow-hidden">
-        <div className="container mx-auto ">
+        <div className="container mx-auto hidden sm:block ">
           {" "}
           <NavBar />
+        </div>
+        <div className="container mx-auto block sm:hidden ">
+          <ResponsiveNavBar />
         </div>
 
         <div className="container mx-auto flex justify-center ">
@@ -32,6 +36,7 @@ const Home = () => {
                 src="/../public/assets/img/mrb.png"
                 width={350}
                 height={499}
+                alt="Mehrab Esmaili"
               />
             </div>
             <div className="pl-48">
@@ -74,9 +79,10 @@ const Home = () => {
               <div className="mx-auto">
                 <div className="p-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5">
                   {" "}
-                  {skillBars.map((e) => {
+                  {skillBars.map((e, _id) => {
                     return (
                       <SkillBars
+                        key={_id}
                         value={e.value}
                         text={e.text}
                         skillTitle={e.skillTitle}
@@ -129,9 +135,14 @@ const Home = () => {
               <SimpleReactLightbox>
                 <SRLWrapper>
                   <div className="p-7 grid grid-cols-1 md:grid-cols-4">
-                    {workSamples.map((e) => {
+                    {workSamples.map((e, _id) => {
                       return (
-                        <WorkSamples href={e.href} src={e.src} alt={e.alt} />
+                        <WorkSamples
+                          key={_id}
+                          href={e.href}
+                          src={e.src}
+                          alt={e.alt}
+                        />
                       );
                     })}
                   </div>
@@ -145,9 +156,10 @@ const Home = () => {
             <h2 id={styles.headingWithLines}>Services we provide</h2>
           </div>
           <div className="flex justify-center mt-10">
-            {planCard.map((e) => {
+            {planCard.map((e, _id) => {
               return (
                 <PlanCard
+                  key={_id}
                   planImage={e.planImage}
                   planTitle={e.planTitle}
                   benefit1={e.benefit1}
@@ -176,20 +188,24 @@ const Home = () => {
                   <a
                     href="https://web.whatsapp.com/send?phone=%2B989333648797&text&app_absent=0"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Image
                       src="/../public/assets/icon/whatsapp.png"
                       width={30}
                       height={30}
+                      alt="whatsapp icon"
                     />
                   </a>
                 </div>
                 <div className="mx-2">
-                  <a href="https://t.me/leviathanaxe" target="_blank">
+                  <a href="https://t.me/leviathanaxe" target="_blank"    rel="noreferrer">
                     <Image
                       src="/../public/assets/icon/telegram.png"
                       width={30}
                       height={30}
+                   
+                      alt="telegram icon"
                     />
                   </a>
                 </div>
@@ -197,20 +213,28 @@ const Home = () => {
                   <a
                     href="https://www.instagram.com/maatin_es/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Image
                       src="/../public/assets/icon/instagram.png"
                       width={30}
                       height={30}
+                 
+                      alt="instagram icon"
                     />
                   </a>
                 </div>
                 <div className="mx-2">
-                  <a href="mailto:esmaili.matin82@gmail.com" target="_blank">
+                  <a
+                    href="mailto:esmaili.matin82@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <Image
                       src="/../public/assets/icon/email.png"
                       width={30}
                       height={30}
+                      alt="email icon"
                     />
                   </a>
                 </div>
