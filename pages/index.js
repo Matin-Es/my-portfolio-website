@@ -14,8 +14,57 @@ import ContactForm from "../components/ContactForm";
 import styles from "../styles/Home.module.css";
 import "react-circular-progressbar/dist/styles.css";
 import ResponsiveNavBar from "../components/ResponsiveNavBar";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 const Home = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 380,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerMode: true,
+          initialSlide: 2,
+        },
+      },
+    ],
+  };
   return (
     <body className="h-screen bg-brandbg font-sans ">
       <div className="overflow-hidden">
@@ -23,6 +72,7 @@ const Home = () => {
           {" "}
           <NavBar />
         </div>
+
         <div className="container mx-auto block sm:hidden ">
           <ResponsiveNavBar />
         </div>
@@ -30,7 +80,7 @@ const Home = () => {
         <div className="container mx-auto flex justify-center ">
           <div className=" flex w-max ">
             {" "}
-            <div className="min-w-max flex self-center">
+            <div className="min-w-max self-center hidden md:block md:relative md:left-20 md:top-8 lg:top-8 lg:left-0">
               {" "}
               <Image
                 src="/../public/assets/img/mrb.png"
@@ -39,29 +89,44 @@ const Home = () => {
                 alt="Mehrab Esmaili"
               />
             </div>
-            <div className="pl-48">
-              <h1 className="text-5xl pb-3 text-gray-600">Mehrab Esmaili</h1>
-              <div className="pb-11 w-96 h-1 top-48 font-mono">
+            <div className="pl-40 pt-10 text">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl pb-3 lg:left-0 text-gray-600 sm:text-4xl sm:relative sm:right-0  md:sticky lg:relative lg:right-20 md:text-left">
+                Mehrab Esmaili
+              </h1>
+              <div className="text-center sm:relative relative sm:right-16 sm:text-center pb-11 w-96 h-1 lg:relative xl:text-left xl:right-96  md:text-left md:left-0 lg:text-left lg:top-0 lg:right-96 sm:top-0 top-0 right-20 font-mono text-lg sm:text-lg">
                 <Typewriter
                   options={{
                     strings: [
-                      "<span style=font-size:24px;color:#949494;>Junior ReactJS developer</span>",
+                      "<span style=color:#949494;>Junior ReactJS developer</span>",
                     ],
                     autoStart: true,
                     loop: true,
                   }}
                 />
               </div>
-              <p className="mt-10 text-gray-400 text-xl">
+              <p className="mt-10 text-gray-400 text-xl hidden md:block lg:hidden ">
+                Hello folks, my name is Mehrab <br />
+                and I was born in March 2001 <br /> in Sari I started
+                programming
+                <br />
+                since 2018 and I try to <br /> keep my skills up to date with
+                <br /> the new technologies
+              </p>
+              <p className="mt-10 text-gray-400 text-xl hidden lg:relative lg:left-0 lg:block sm:block sm:text-center md:hidden md:text-center lg:text-left sm:relative sm:right-20">
                 Hello folks, my name is Mehrab and I was born <br /> in March
                 2001 in Sari <br /> I started programming since 2018 and I try
                 to <br /> keep my skills up to date with the new <br />{" "}
                 technologies
               </p>
-              <div className="mt-6">
+              <p className="mt-10 mr-44 text-gray-400 text-xl text-center block sm:hidden ">
+                Hello folks, my name is Mehrab and I was born in March 2001 in
+                Sari I started programming since 2018 and I try to keep my
+                skills up to date with the new technologies
+              </p>
+              <div className="mt-6 ml-10 md:relative md:right-10">
                 <a
                   href="#"
-                  className="inline-block px-8 py-3 rounded-3xl bg-gray-600 text-white"
+                  className="inline-block sm:px-8 sm:py-3 px-4 py-2 rounded-3xl bg-gray-600 text-white"
                 >
                   Downlaod CV
                 </a>
@@ -70,14 +135,14 @@ const Home = () => {
           </div>
         </div>
 
-        <section className="bg-white pt-7 w-screen">
+        <section className="bg-white pt-7 w-screen mt-7 sm:mt-7">
           <div className="container mx-auto">
             <div className="flex justify-center text-gray-500 text-2xl">
               <h2 id={styles.headingWithLines}>My skills</h2>
             </div>
             <div className="flex justify-center">
               <div className="mx-auto">
-                <div className="p-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5">
+                <div className="p-7 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5">
                   {" "}
                   {skillBars.map((e, _id) => {
                     return (
@@ -110,7 +175,7 @@ const Home = () => {
           <div className="flex justify-center text-gray-500 text-2xl mt-7">
             <h2 id={styles.headingWithLines}>Services we provide</h2>
           </div>
-          <div className="flex justify-center mt-10">
+          <div className="p-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
             {serviceCard.map((e, _id) => {
               const className = [1, 2].includes(_id) ? "text-sm" : "";
               return (
@@ -134,7 +199,7 @@ const Home = () => {
             <div className="flex justify-center">
               <SimpleReactLightbox>
                 <SRLWrapper>
-                  <div className="p-7 grid grid-cols-1 md:grid-cols-4">
+                  <div className="p-7 -mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     {workSamples.map((e, _id) => {
                       return (
                         <WorkSamples
@@ -153,22 +218,24 @@ const Home = () => {
         </section>
         <div className="container mx-auto pb-7">
           <div className="flex justify-center text-gray-500 text-2xl mt-7">
-            <h2 id={styles.headingWithLines}>Services we provide</h2>
+            <h2 id={styles.headingWithLines}>Plans and pricing</h2>
           </div>
-          <div className="flex justify-center mt-10">
-            {planCard.map((e, _id) => {
-              return (
-                <PlanCard
-                  key={_id}
-                  planImage={e.planImage}
-                  planTitle={e.planTitle}
-                  benefit1={e.benefit1}
-                  benefit2={e.benefit2}
-                  benefit3={e.benefit3}
-                  price={e.price}
-                />
-              );
-            })}
+          <div className="container mt-10 mx-5 sm:mx-auto">
+            <Slider {...settings}>
+              {planCard.map((e, _id) => {
+                return (
+                  <PlanCard
+                    key={_id}
+                    planImage={e.planImage}
+                    planTitle={e.planTitle}
+                    benefit1={e.benefit1}
+                    benefit2={e.benefit2}
+                    benefit3={e.benefit3}
+                    price={e.price}
+                  />
+                );
+              })}
+            </Slider>
           </div>
         </div>
         <section className="bg-white pt-7 w-screen ">
@@ -180,8 +247,11 @@ const Home = () => {
               <ContactForm />
             </div>
             <div className="flex justify-center mt-7">
-              <div>
+              <div className="hidden sm:block">
                 <p>You can also contact me via: </p>
+              </div>
+              <div className="block sm:hidden text-base text-center">
+                <p>contact me via:</p>
               </div>
               <div className="flex justify-center ml-2 mr-5">
                 <div className="mx-2">
@@ -199,12 +269,15 @@ const Home = () => {
                   </a>
                 </div>
                 <div className="mx-2">
-                  <a href="https://t.me/leviathanaxe" target="_blank"    rel="noreferrer">
+                  <a
+                    href="https://t.me/leviathanaxe"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <Image
                       src="/../public/assets/icon/telegram.png"
                       width={30}
                       height={30}
-                   
                       alt="telegram icon"
                     />
                   </a>
@@ -219,7 +292,6 @@ const Home = () => {
                       src="/../public/assets/icon/instagram.png"
                       width={30}
                       height={30}
-                 
                       alt="instagram icon"
                     />
                   </a>
@@ -243,7 +315,9 @@ const Home = () => {
           </div>
         </section>
         <div className="flex justify-center text-center m-3">
-          <p>©️ 2021 all rights reserved by Mehrab Esmaili</p>
+          <p className="text-xs sm:text-base">
+            ©️ 2021 all rights reserved by Mehrab Esmaili
+          </p>
         </div>
       </div>
     </body>

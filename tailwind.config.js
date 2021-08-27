@@ -14,6 +14,10 @@ module.exports = {
         skillBarsWidth: "102px",
         testWidth:"100%"
       },
+      minWidth: {
+        skillBarsWidth: "60px",
+        testWidth:"100%"
+      },
     },
   },
   variants: {

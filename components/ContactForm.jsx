@@ -8,7 +8,7 @@ const ContactForm = () => {
       <form className="mt-8 space-y-6" action="#" method="POST">
         <input type="hidden" name="remember" defaultValue="true" />
 
-        <div>
+        <div className="px-10 sm:px-0">
           <label htmlFor="email-address" className="sr-only">
             Your Email
           </label>
@@ -18,12 +18,12 @@ const ContactForm = () => {
             type="email"
             autoComplete="email"
             required
-            className="appearance-none  relative block w-80 px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
+            className="appearance-none  relative block sm:w-80 w-64 px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
             placeholder="Your E-mail"
           />
         </div>
 
-        <div>
+        <div className="px-10 sm:px-0">
           <label htmlFor="name" className="sr-only">
             Your name
           </label>
@@ -33,12 +33,12 @@ const ContactForm = () => {
             type="name"
             autoComplete="current-name"
             required
-            className="appearance-none  relative block w-80 px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
+            className="appearance-none  relative block sm:w-80 w-64 px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
             placeholder="Your name"
           />
         </div>
 
-        <div>
+        <div className="px-10 sm:px-0">
           <label htmlFor="message" className="sr-only">
             Your message
           </label>
@@ -48,7 +48,7 @@ const ContactForm = () => {
             type="text"
             autoComplete="current-message"
             required
-            className="appearance-none relative block w-80 px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
+            className="appearance-none relative block sm:w-80 w-64 px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
             placeholder="Your message"
           />
         </div>

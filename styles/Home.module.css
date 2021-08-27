@@ -17,3 +17,7 @@ h2#headingWithLines:after {
 h2#headingWithLines:after {
   margin: 0 0 0 20px;
 }
+
+@media (min-width: 280px) { 
+h2#headingWithLines{width:90%}
+}

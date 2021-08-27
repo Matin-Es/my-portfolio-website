@@ -22,7 +22,7 @@ const NavBar = () => {
           <a href="#">Contact</a>{" "}
         </li>
       </ul>
-      <div className="relative ml-auto  min-w-max cursor-pointer">
+      <div className="relative ml-auto min-w-max cursor-pointer">
         <Link href="/" rel="noreferrer" passHref={true}>
           <Image
             src="/../public/assets/MehrabEs_Logo/vector/default.svg"

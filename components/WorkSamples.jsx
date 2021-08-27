@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WorkSamples = (props) => {
   return (
-    <div className=" w-60 h-auto  m-5 rounded-4xl shadow-md">
+    <div className=" w-60 h-28 m-5 rounded-4xl shadow-md">
       {" "}
       <a href={props.href}>
         <Image
