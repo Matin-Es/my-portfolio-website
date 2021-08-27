@@ -15,8 +15,8 @@ const serviceCard = [
 
         <p className="lg:block lg:text-sm hidden">
           Pace of world has affected people so we <br/> don't waste our customer's
-          time with the great user <br/> experience and simplicity while keeping the
-          beautiful appearance{" "}
+          time with the great user <br/> experience and simplicity while keeping <br/>the
+          beautiful and Impressive appearance {" "}
         </p>
       </>
     ),
@@ -83,7 +83,7 @@ const serviceCard = [
           working with us
         </p>
         <p className="lg:block hidden">
-          We have our customers back like a soldier, we give them a long time
+          We have our customers back like a soldier, <br/> we give them a long time
           support to give them the best experiences as they are working with us
         </p>
       </>

@@ -17,7 +17,9 @@ import ResponsiveNavBar from "../components/ResponsiveNavBar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { ScrollToTop } from "../components/ScrollToTop";
 const Home = () => {
+  
   var settings = {
     dots: true,
     infinite: true,
@@ -320,6 +322,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <ScrollToTop/>
     </body>
   );
 };
