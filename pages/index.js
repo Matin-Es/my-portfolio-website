@@ -19,7 +19,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { ScrollToTop } from "../components/ScrollToTop";
 const Home = () => {
-  
   var settings = {
     dots: true,
     infinite: true,
@@ -177,7 +176,7 @@ const Home = () => {
           <div className="flex justify-center text-gray-500 text-2xl mt-7">
             <h2 id={styles.headingWithLines}>Services we provide</h2>
           </div>
-          <div className="p-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+          <div id="services" className="p-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
             {serviceCard.map((e, _id) => {
               const className = [1, 2].includes(_id) ? "text-sm" : "";
               return (
@@ -198,7 +197,7 @@ const Home = () => {
             <div className="flex justify-center text-gray-500 text-2xl">
               <h2 id={styles.headingWithLines}>Work samples</h2>
             </div>
-            <div className="flex justify-center">
+            <div id="portfolio" className="flex justify-center">
               <SimpleReactLightbox>
                 <SRLWrapper>
                   <div className="p-7 -mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -218,11 +217,11 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <div className="container mx-auto pb-7">
+        <div  className="container mx-auto pb-7">
           <div className="flex justify-center text-gray-500 text-2xl mt-7">
             <h2 id={styles.headingWithLines}>Plans and pricing</h2>
           </div>
-          <div className="container mt-10 mx-5 sm:mx-auto">
+          <div id="pricing" className="container mt-10 mx-5 sm:mx-auto">
             <Slider {...settings}>
               {planCard.map((e, _id) => {
                 return (
@@ -241,7 +240,7 @@ const Home = () => {
           </div>
         </div>
         <section className="bg-white pt-7 w-screen ">
-          <div className="container mx-auto pb-5">
+          <div id="contact" className="container mx-auto pb-5">
             <div className="flex justify-center text-gray-500 text-2xl">
               <h2 id={styles.headingWithLines}>Contatct me</h2>
             </div>
@@ -322,7 +321,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <ScrollToTop/>
+      <ScrollToTop />
     </body>
   );
 };

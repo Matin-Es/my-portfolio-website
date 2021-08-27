@@ -1,15 +1,15 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+
+import { Disclosure } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About", href: "#", current: false },
-  { name: "Portfolio", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Services", to: "services", current: false },
+  { name: "Portfolio", to: "portfolio", current: false },
+  { name: "Pricing", to: "pricing", current: false },
+  { name: "Contact", to: "contact", current: false },
 ];
 
 function classNames(...classes) {
@@ -40,7 +40,6 @@ export default function ResponsiveNavBar() {
                     {navigation.map((item) => (
                       <Link
                         key={item.name}
-                        href={item.href}
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
@@ -84,7 +83,13 @@ export default function ResponsiveNavBar() {
                 
                   </Transition> */}
               {navigation.map((item) => (
-                <a
+                <Link
+                  activeClass="active"
+                  to={item.to}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                   key={item.name}
                   href={item.href}
                   className={classNames(
@@ -96,7 +101,7 @@ export default function ResponsiveNavBar() {
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </Disclosure.Panel>
