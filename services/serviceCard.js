@@ -2,7 +2,7 @@ import Uiux from "../public/assets/icon/uiux_design.png";
 const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
-    image: { Uiux },
+    image: Uiux,
     alt: "UI/UX",
     title: "UI/UX",
     description: (
