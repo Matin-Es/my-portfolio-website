@@ -5,9 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 function MyApp({ Component, pageProps }) {
   return (
+    <body className="h-screen bg-brandbg font-sans ">
+    <div className="overflow-hidden">
     <SimpleReactLightbox>
       <Component {...pageProps} />
     </SimpleReactLightbox>
+    </div>
+    </body>
   );
 }
 

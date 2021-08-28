@@ -6,13 +6,7 @@ const WorkSamples = (props) => {
     <div className=" w-60 h-28 m-5 rounded-4xl shadow-md">
       {" "}
       <a href={props.href}>
-        <Image
-          src={props.src}
-          alt={props.alt}
-          width={240}
-          height={116.72}
-          srl_gallery_image="true"
-        />
+        <Image src={props.src} alt={props.alt} width={240} height={116.72} />
       </a>
     </div>
   );

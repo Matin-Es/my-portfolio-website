@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 
 const NavBar = () => {
   return (
+    <div className="container mx-auto hidden sm:block ">
     <nav className="flex items-center justify-center mx-auto">
       <ul className="inline-flex text-xl pb-14 text-gray-500 ">
         <li className="ml-3 mr-10 sm:ml-36 md:ml-3 cursor-pointer">
@@ -74,6 +75,7 @@ const NavBar = () => {
         </Link>
       </div>
     </nav>
+    </div>
   );
 };
 

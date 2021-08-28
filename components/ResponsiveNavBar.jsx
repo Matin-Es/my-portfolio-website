@@ -18,6 +18,7 @@ function classNames(...classes) {
 
 export default function ResponsiveNavBar() {
   return (
+    <div className="container mx-auto block sm:hidden ">
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
@@ -108,5 +109,6 @@ export default function ResponsiveNavBar() {
         </>
       )}
     </Disclosure>
+    </div>
   );
 }
