@@ -3,7 +3,13 @@ import Image from "next/image";
 const PlanCard = (props) => {
   return (
     <div className="text-center w-full sm:w-full md:-mx-20 border-2 lg:border-none text-sm lg:w-64 lg:mx-auto sm:mx16 h-auto shadow-md rounded-2xl bg-white p-6">
-      <Image className="animate-pulse" src={props.planImage} width={45} height={45} alt="plan image" />
+      <Image
+        className="animate-pulse"
+        src={props.planImage}
+        width={45}
+        height={45}
+        alt="plan image"
+      />
       <h3 className="text-center text-2xl mt-1 text-gray-500 mb-5">
         {props.planTitle}
       </h3>{" "}

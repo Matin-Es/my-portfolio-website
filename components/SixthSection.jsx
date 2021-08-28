@@ -72,7 +72,7 @@ const SixthSection = () => {
                 rel="noreferrer"
               >
                 <Image
-                className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
+                  className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
                   src="/../public/assets/icon/email.png"
                   width={30}
                   height={30}
