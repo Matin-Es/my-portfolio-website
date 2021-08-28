@@ -1,4 +1,4 @@
-import PlanCard from "../components/planCard";
+import PlanCard from "../components/PlanCard";
 import planCard from "../services/planCard";
 import Slider from "react-slick";
 import styles from "../styles/Home.module.css";
