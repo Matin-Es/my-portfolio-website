@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
-import MyImage from '../public/assets/img/portfolio/mrb.png'
+import MyImage from './../public/assets/img/mrb.png'
 
 const FirstSection = () => {
   return (
