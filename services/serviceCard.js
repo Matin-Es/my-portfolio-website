@@ -1,4 +1,8 @@
 import Uiux from "../public/assets/icon/uiux_design.png";
+import Performance from "../public/assets/icon/performance.png";
+import Seo from "../public/assets/icon/seo.png";
+import Support from "../public/assets/icon/support.png";
+
 const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
@@ -26,7 +30,7 @@ const serviceCard = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471816",
-    image: "/../public/assets/icon/performance.png",
+    image: Performance,
     alt: "Performance",
     title: "Performance",
     description: (
@@ -51,7 +55,7 @@ const serviceCard = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471817",
-    image: "/../public/assets/icon/seo.png",
+    image: Seo,
     alt: "SEO",
     title: "SEO",
     description: (
@@ -75,7 +79,7 @@ const serviceCard = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471818",
-    image: "/../public/assets/icon/support.png",
+    image: Support,
     alt: "Support",
     title: "Support",
     description: (

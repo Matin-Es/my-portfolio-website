@@ -1,6 +1,10 @@
 import Image from "next/image";
 import ContactForm from "./ContactForm";
 import styles from "../styles/Home.module.css";
+import Whatsapp from "../public/assets/icon/whatsapp.png";
+import Telegram from "../public/assets/icon/telegram.png";
+import Instagram from "../public/assets/icon/instagram.png";
+import Email from "../public/assets/icon/email.png";
 
 const SixthSection = () => {
   return (
@@ -28,7 +32,7 @@ const SixthSection = () => {
               >
                 <Image
                   className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
-                  src="/../public/assets/icon/whatsapp.png"
+                  src={Whatsapp}
                   width={30}
                   height={30}
                   alt="whatsapp icon"
@@ -43,7 +47,7 @@ const SixthSection = () => {
               >
                 <Image
                   className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
-                  src="/../public/assets/icon/telegram.png"
+                  src={Telegram}
                   width={30}
                   height={30}
                   alt="telegram icon"
@@ -58,7 +62,7 @@ const SixthSection = () => {
               >
                 <Image
                   className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
-                  src="/../public/assets/icon/instagram.png"
+                  src={Instagram}
                   width={30}
                   height={30}
                   alt="instagram icon"
@@ -73,7 +77,7 @@ const SixthSection = () => {
               >
                 <Image
                   className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
-                  src="/../public/assets/icon/email.png"
+                  src={Email}
                   width={30}
                   height={30}
                   alt="email icon"

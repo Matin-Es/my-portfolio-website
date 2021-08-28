@@ -1,7 +1,10 @@
+import Basicplan from "../public/assets/icon/Basic_plan.png";
+import Premium from "../public/assets/icon/Premium_plan.png";
+import Ultimate from "../public/assets/icon/Ultimate_plan.png";
 const planCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
-    planImage: "/../public/assets/icon/Basic_plan.png",
+    planImage: Basicplan,
     planTitle: "Baic",
     benefit1: "UI/UX",
     benefit2: "Unlimited Support",
@@ -10,7 +13,7 @@ const planCard = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471815",
-    planImage: "/../public/assets/icon/Premium_plan.png",
+    planImage: Premium,
     planTitle: "Premium",
     benefit1: "Wordpress",
     benefit2: "Unlimited Support",
@@ -19,7 +22,7 @@ const planCard = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471815",
-    planImage: "/../public/assets/icon/Ultimate_plan.png",
+    planImage: Ultimate,
     planTitle: "Ultimate",
     benefit1: "Web Development",
     benefit2: "Unlimited Support",
