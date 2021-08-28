@@ -50,7 +50,7 @@ const FirstSection = () => {
           <div className="mt-6 ml-10 md:relative md:right-10">
             <a
               href="#"
-              className="inline-block sm:px-8 sm:py-3 px-4 py-2 rounded-3xl bg-gray-600 text-white hover:bg-brandbg hover:text-gray-700 hover:border-gray-600 transition-colors border-2"
+              className="inline-block sm:px-8 sm:py-3 px-4 py-2 rounded-3xl bg-gray-600 text-white hover:bg-brandbg hover:text-gray-700 hover:border-gray-600 transition-colors border"
             >
               Downlaod CV
             </a>
