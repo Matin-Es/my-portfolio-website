@@ -1,4 +1,6 @@
-/*! tailwindcss v2.2.7 | MIT License | https://tailwindcss.com */
+/* purgecss start ignore */
+
+/* ! tailwindcss v2.2.7 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -760,6 +762,8 @@ select {
     max-width: 1536px;
   }
 }
+
+/* purgecss end ignore */
 
 .sr-only {
   position: absolute;
@@ -10341,18 +10345,6 @@ select {
   }
 }
 
-@-webkit-keyframes wiggle {
-  0%, 100% {
-    opacity: 100;
-  }
-}
-
-@keyframes wiggle {
-  0%, 100% {
-    opacity: 100;
-  }
-}
-
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -10376,11 +10368,6 @@ select {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
-}
-
-.animate-wiggle {
-  -webkit-animation: wiggle 1s ease-in-out infinite;
-          animation: wiggle 1s ease-in-out infinite;
 }
 
 .cursor-auto {
@@ -42281,11 +42268,6 @@ select {
             animation: bounce 1s infinite;
   }
 
-  .sm\:animate-wiggle {
-    -webkit-animation: wiggle 1s ease-in-out infinite;
-            animation: wiggle 1s ease-in-out infinite;
-  }
-
   .sm\:cursor-auto {
     cursor: auto;
   }
@@ -74170,11 +74152,6 @@ select {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
-  }
-
-  .md\:animate-wiggle {
-    -webkit-animation: wiggle 1s ease-in-out infinite;
-            animation: wiggle 1s ease-in-out infinite;
   }
 
   .md\:cursor-auto {
@@ -106063,11 +106040,6 @@ select {
             animation: bounce 1s infinite;
   }
 
-  .lg\:animate-wiggle {
-    -webkit-animation: wiggle 1s ease-in-out infinite;
-            animation: wiggle 1s ease-in-out infinite;
-  }
-
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -137954,11 +137926,6 @@ select {
             animation: bounce 1s infinite;
   }
 
-  .xl\:animate-wiggle {
-    -webkit-animation: wiggle 1s ease-in-out infinite;
-            animation: wiggle 1s ease-in-out infinite;
-  }
-
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -169843,11 +169810,6 @@ select {
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
-  }
-
-  .\32xl\:animate-wiggle {
-    -webkit-animation: wiggle 1s ease-in-out infinite;
-            animation: wiggle 1s ease-in-out infinite;
   }
 
   .\32xl\:cursor-auto {

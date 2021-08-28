@@ -1,3 +1,4 @@
+import Head from "next/head";
 import NavBar from "../components/NavBar";
 import ResponsiveNavBar from "../components/ResponsiveNavBar";
 import FirstSection from "../components/FirstSection";
@@ -12,6 +13,11 @@ import { ScrollToTop } from "../components/ScrollToTop";
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>Matin Esmaili</title>
+        <meta name="Web developer" content="Web Programming" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <NavBar />
       <ResponsiveNavBar />
       <FirstSection />
