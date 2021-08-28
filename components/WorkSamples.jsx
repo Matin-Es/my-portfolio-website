@@ -6,7 +6,13 @@ const WorkSamples = (props) => {
     <div className=" w-60 h-28 m-5 rounded-4xl shadow-md">
       {" "}
       <a href={props.href}>
-        <Image src={props.src} alt={props.alt} width={240} height={116.72} />
+        <Image
+          className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110"
+          src={props.src}
+          alt={props.alt}
+          width={240}
+          height={116.72}
+        />
       </a>
     </div>
   );

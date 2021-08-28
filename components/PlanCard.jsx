@@ -15,7 +15,7 @@ const PlanCard = (props) => {
         <a
           href="https://web.whatsapp.com/send?phone=%2B989333648797&text&app_absent=0"
           target="_blank"
-          className="inline-block px-6 py-2 rounded-3xl bg-gray-600 text-white"
+          className="inline-block px-6 py-2 rounded-3xl bg-gray-600 text-white hover:bg-brandbg hover:text-gray-700 hover:border-gray-600 transition-colors border-2"
           rel="noreferrer"
         >
           Purchase

@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "buildtailwindcss": "postcss styles/globals.css -o public/build/tailwind.css"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.0",
     "@heroicons/react": "^1.0.4",
     "@tailwindcss/forms": "^0.3.3",
     "next": "11.1.0",
+    "postcss-cli": "^8.3.1",
     "react": "17.0.2",
     "react-circular-progressbar": "^2.0.4",
     "react-dom": "17.0.2",
