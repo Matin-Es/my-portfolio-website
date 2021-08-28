@@ -1,11 +1,17 @@
 module.exports = {
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  mode: 'jit',
+  purge: {
+    content: [
+      "./pages/**/*.{js,jsx,ts,tsx}",
+      "./components/**/*.{js,jsx,ts,tsx}",
+    ],
+  },
   darkMode: false, // or 'media' or 'class'
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: false,
+
   theme: {
     extend: {
       colors: {
