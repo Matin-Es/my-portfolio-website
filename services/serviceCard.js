@@ -2,6 +2,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
     image: "/../public/assets/icon/uiux_design.png",
+    alt: "UI/UX",
     title: "UI/UX",
     description: (
       <>
@@ -14,9 +15,10 @@ const serviceCard = [
         </p>
 
         <p className="lg:block lg:text-sm hidden">
-          Pace of world has affected people so we <br/> don't waste our customer's
-          time with the great user <br/> experience and simplicity while keeping <br/>the
-          beautiful and Impressive appearance {" "}
+          Pace of world has affected people so we <br /> don't waste our
+          customer's time with the great user <br /> experience and simplicity
+          while keeping <br />
+          the beautiful and Impressive appearance{" "}
         </p>
       </>
     ),
@@ -24,6 +26,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471816",
     image: "/../public/assets/icon/performance.png",
+    alt: "Performance",
     title: "Performance",
     description: (
       <>
@@ -48,6 +51,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471817",
     image: "/../public/assets/icon/seo.png",
+    alt: "SEO",
     title: "SEO",
     description: (
       <>
@@ -71,6 +75,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471818",
     image: "/../public/assets/icon/support.png",
+    alt: "Support",
     title: "Support",
     description: (
       <>
@@ -83,8 +88,9 @@ const serviceCard = [
           working with us
         </p>
         <p className="lg:block hidden">
-          We have our customers back like a soldier, <br/> we give them a long time
-          support to give them the best experiences as they are working with us
+          We have our customers back like a soldier, <br /> we give them a long
+          time support to give them the best experiences as they are working
+          with us
         </p>
       </>
     ),
