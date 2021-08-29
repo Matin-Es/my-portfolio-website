@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
-import MyImage from './../public/assets/img/mrb.png'
+import MyImage from "./../public/assets/img/mrb.png";
 
 const FirstSection = () => {
   return (
@@ -9,12 +9,7 @@ const FirstSection = () => {
         {" "}
         <div className="min-w-max self-center hidden md:block md:relative md:left-20 md:top-8 lg:top-8 lg:left-0">
           {" "}
-          <Image
-            src={MyImage}
-            width={350}
-            height={499}
-            alt="Mehrab Esmaili"
-          />
+          <Image src={MyImage} width={350} height={499} alt="Mehrab Esmaili" />
         </div>
         <div className="pl-40 pt-10 text">
           <h1 className="text-3xl md:text-4xl lg:text-5xl pb-3 lg:left-0 text-gray-600 sm:text-4xl sm:relative sm:right-0  md:sticky lg:relative lg:right-20 md:text-left">

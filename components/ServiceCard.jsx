@@ -10,7 +10,6 @@ const ServiceCard = (props) => {
           alt={props.alt}
           width={45}
           height={45}
-      
         />
         <h3 className="text-center text-2xl mt-1 text-gray-500">
           {props.title}
