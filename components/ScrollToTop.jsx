@@ -24,8 +24,7 @@ export const ScrollToTop = () => {
   }, []);
   return (
     <div className="fixed bottom-5 right-5">
-      <button
-        type="button"
+      <div
         onClick={scrollToTop}
         className={classNames(
           isVisible ? "opacity-100" : "opacity-0",
@@ -33,8 +32,7 @@ export const ScrollToTop = () => {
         )}
       >
         <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />
-        a
-      </button>
+      </div>
     </div>
   );
 };
