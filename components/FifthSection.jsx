@@ -55,7 +55,7 @@ const FifthSection = () => {
   };
   return (
     <div className="container mx-auto pb-7">
-      <div className="flex justify-center text-gray-500 text-2xl mt-7">
+      <div className="flex justify-center text-gray-600 text-2xl mt-7">
         <h2 id={styles.headingWithLines}>Plans and pricing</h2>
       </div>
       <div id="pricing" className="container mt-10 mx-5 sm:mx-auto">

@@ -7,7 +7,7 @@ const SecondSection = () => {
   return (
     <section className="bg-white pt-7 w-screen mt-7 sm:mt-7">
       <div className="container mx-auto">
-        <div className="flex justify-center text-gray-500 text-2xl">
+        <div className="flex justify-center text-gray-600 text-2xl">
           <h2 id={styles.headingWithLines}>My skills</h2>
         </div>
         <div className="flex justify-center">
@@ -27,10 +27,10 @@ const SecondSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-gray-500 text-2xl mt-12">
+        <div className="flex justify-center text-gray-600 text-2xl mt-12">
           <h2 id={styles.headingWithLines}>Other skills</h2>
         </div>
-        <div className="flex text-center justify-center mt-4 text-xl text-gray-400 pb-7">
+        <div className="flex text-center justify-center mt-4 text-xl text-gray-600 pb-7">
           {" "}
           <p>
             You can see my other <br /> skills such as ts, git and...

@@ -11,10 +11,10 @@ const ServiceCard = (props) => {
           width={45}
           height={45}
         />
-        <h3 className="text-center text-2xl mt-1 text-gray-500">
+        <h3 className="text-center text-2xl mt-1 text-gray-600">
           {props.title}
         </h3>{" "}
-        <p className="mt-2 text-gray-400">{props.description}</p>
+        <p className="mt-2 text-gray-600">{props.description}</p>
       </div>
     </div>
   );

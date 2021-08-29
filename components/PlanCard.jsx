@@ -10,12 +10,12 @@ const PlanCard = (props) => {
         height={45}
         alt="plan image"
       />
-      <h3 className="text-center text-2xl mt-1 text-gray-500 mb-5">
+      <h3 className="text-center text-2xl mt-1 text-gray-600 mb-5">
         {props.planTitle}
       </h3>{" "}
-      <p className="mt-2 text-gray-400 ">{props.benefit1}</p>
-      <p className="mt-2 text-gray-400">{props.benefit2}</p>
-      <p className="mt-2 text-gray-400 mb-5">{props.benefit3}</p>
+      <p className="mt-2 text-gray-600 ">{props.benefit1}</p>
+      <p className="mt-2 text-gray-600">{props.benefit2}</p>
+      <p className="mt-2 text-gray-600 mb-5">{props.benefit3}</p>
       <p className="mt-2 text-gray-600 text-xl">{props.price}</p>
       <div className="mt-2">
         <a

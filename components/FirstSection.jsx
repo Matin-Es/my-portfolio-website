@@ -15,30 +15,30 @@ const FirstSection = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl pb-3 lg:left-0 text-gray-600 sm:text-4xl sm:relative sm:right-0  md:sticky lg:relative lg:right-20 md:text-left">
             Mehrab Esmaili
           </h1>
-          <div className="text-center sm:relative relative sm:right-16 sm:text-center pb-11 w-96 h-1 lg:relative xl:text-left xl:right-96  md:text-left md:left-0 lg:text-left lg:top-0 lg:right-96 sm:top-0 top-0 right-20 font-mono text-lg sm:text-lg">
+          <div className="text-center text-gray-600 sm:relative relative sm:right-16 sm:text-center pb-11 w-96 h-1 lg:relative xl:text-left xl:right-96  md:text-left md:left-0 lg:text-left lg:top-0 lg:right-96 sm:top-0 top-0 right-20 font-mono text-lg sm:text-lg">
             <Typewriter
               options={{
                 strings: [
-                  "<span style=color:#949494;>Junior ReactJS developer</span>",
+                  "<span>Junior ReactJS developer</span>",
                 ],
                 autoStart: true,
                 loop: true,
               }}
             />
           </div>
-          <p className="mt-10 text-gray-400 text-xl hidden md:block lg:hidden ">
+          <p className="mt-10 text-gray-600 text-xl hidden md:block lg:hidden ">
             Hello folks, my name is Mehrab <br />
             and I was born in March 2001 <br /> in Sari I started programming
             <br />
             since 2018 and I try to <br /> keep my skills up to date with
             <br /> the new technologies
           </p>
-          <p className="mt-10 text-gray-400 text-xl hidden lg:relative lg:left-0 lg:block sm:block sm:text-center md:hidden md:text-center lg:text-left sm:relative sm:right-20">
+          <p className="mt-10 text-gray-600 text-xl hidden lg:relative lg:left-0 lg:block sm:block sm:text-center md:hidden md:text-center lg:text-left sm:relative sm:right-20">
             Hello folks, my name is Mehrab and I was born <br /> in March 2001
             in Sari <br /> I started programming since 2018 and I try to <br />{" "}
             keep my skills up to date with the new <br /> technologies
           </p>
-          <p className="mt-10 mr-44 text-gray-400 text-xl text-center block sm:hidden ">
+          <p className="mt-10 mr-44 text-gray-600 text-xl text-center block sm:hidden ">
             Hello folks, my name is Mehrab and I was born in March 2001 in Sari
             I started programming since 2018 and I try to keep my skills up to
             date with the new technologies

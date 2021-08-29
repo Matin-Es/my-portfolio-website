@@ -33,6 +33,7 @@ export const ScrollToTop = () => {
         )}
       >
         <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />
+        a
       </button>
     </div>
   );

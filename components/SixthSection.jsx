@@ -10,7 +10,7 @@ const SixthSection = () => {
   return (
     <section className="bg-white pt-7 w-screen ">
       <div id="contact" className="container mx-auto pb-5">
-        <div className="flex justify-center text-gray-500 text-2xl">
+        <div className="flex justify-center text-gray-600 text-2xl">
           <h2 id={styles.headingWithLines}>Contatct me</h2>
         </div>
         <div className="flex justify-center">

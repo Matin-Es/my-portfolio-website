@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 const ThirdSection = () => {
   return (
     <div className="container mx-auto pb-7">
-      <div className="flex justify-center text-gray-500 text-2xl mt-7">
+      <div className="flex justify-center text-gray-600 text-2xl mt-7">
         <h2 id={styles.headingWithLines}>Services we provide</h2>
       </div>
       <div

@@ -7,7 +7,7 @@ const FourthSection = () => {
   return (
     <section className="bg-white pt-7 w-screen">
       <div className="container mx-auto">
-        <div className="flex justify-center text-gray-500 text-2xl">
+        <div className="flex justify-center text-gray-600 text-2xl">
           <h2 id={styles.headingWithLines}>Work samples</h2>
         </div>
         <div id="portfolio" className="flex justify-center">
