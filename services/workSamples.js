@@ -1,11 +1,11 @@
 import AdminPanel from "../public/assets/img/portfolio/1.jpg";
-import BahrAcademy from "../public/assets/img/portfolio/1.jpg";
-import Varzesh3 from "../public/assets/img/portfolio/1.jpg";
-import ArtistWeb from "../public/assets/img/portfolio/1.jpg";
-import ShoeShop1 from "../public/assets/img/portfolio/1.jpg";
-import OnlineInvest from "../public/assets/img/portfolio/1.jpg";
-import ShoeShop2 from "../public/assets/img/portfolio/1.jpg";
-import AutoShopWeb from "../public/assets/img/portfolio/1.jpg";
+import BahrAcademy from "../public/assets/img/portfolio/2.jpg";
+import Varzesh3 from "../public/assets/img/portfolio/3.jpg";
+import ArtistWeb from "../public/assets/img/portfolio/4.jpg";
+import ShoeShop1 from "../public/assets/img/portfolio/5.jpg";
+import OnlineInvest from "../public/assets/img/portfolio/6.jpg";
+import ShoeShop2 from "../public/assets/img/portfolio/7.jpg";
+import AutoShopWeb from "../public/assets/img/portfolio/8.jpg";
 
 const workSamples = [
   {
