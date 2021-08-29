@@ -13,7 +13,7 @@ const ThirdSection = () => {
         className="p-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
       >
         {serviceCard.map((e, _id) => {
-          const className = [1, 2].includes(_id) ? "text-sm" : "";
+          const className = [0, 1, 2].includes(_id) ? "text-sm" : "";
           return (
             <ServiceCard
               key={e._id}
