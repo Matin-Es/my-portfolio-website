@@ -1,50 +1,59 @@
+import AdminPanel from "../public/assets/img/portfolio/1.jpg";
+import BahrAcademy from "../public/assets/img/portfolio/1.jpg";
+import Varzesh3 from "../public/assets/img/portfolio/1.jpg";
+import ArtistWeb from "../public/assets/img/portfolio/1.jpg";
+import ShoeShop1 from "../public/assets/img/portfolio/1.jpg";
+import OnlineInvest from "../public/assets/img/portfolio/1.jpg";
+import ShoeShop2 from "../public/assets/img/portfolio/1.jpg";
+import AutoShopWeb from "../public/assets/img/portfolio/1.jpg";
+
 const workSamples = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
-    href: "https://www.linkpicture.com/q/1_926.jpg",
-    src: "https://www.linkpicture.com/q/1_926.jpg",
+    href: AdminPanel,
+    src: AdminPanel,
     alt: "Admin Panel",
   },
   {
     _id: "5b21ca3eeb7f6fbccd471816",
-    href: "https://www.linkpicture.com/q/2_475.jpg",
-    src: "https://www.linkpicture.com/q/2_475.jpg",
+    href: BahrAcademy,
+    src: BahrAcademy,
     alt: "Bahr Academy",
   },
   {
     _id: "5b21ca3eeb7f6fbccd471817",
-    href: "https://www.linkpicture.com/q/3_305.jpg",
-    src: "https://www.linkpicture.com/q/3_305.jpg",
+    href: Varzesh3,
+    src: Varzesh3,
     alt: "Varzesh 3",
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
-    href: "https://www.linkpicture.com/q/4_83.jpg",
-    src: "https://www.linkpicture.com/q/4_83.jpg",
+    href: ArtistWeb,
+    src: ArtistWeb,
     alt: "Artist's personal website",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181a",
-    href: "https://www.linkpicture.com/q/5_99.jpg",
-    src: "https://www.linkpicture.com/q/5_99.jpg",
+    href: ShoeShop1,
+    src: ShoeShop1,
     alt: "Shoe online shop",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181b",
-    href: "https://www.linkpicture.com/q/7_218.jpg",
-    src: "https://www.linkpicture.com/q/7_218.jpg",
+    href: OnlineInvest,
+    src: OnlineInvest,
     alt: "Online investment website",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181e",
-    href: "https://www.linkpicture.com/q/6_86.jpg",
-    src: "https://www.linkpicture.com/q/6_86.jpg",
+    href: ShoeShop2,
+    src: ShoeShop2,
     alt: "Shoe online shop",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
-    href: "https://www.linkpicture.com/q/8_179.jpg",
-    src: "https://www.linkpicture.com/q/8_179.jpg",
+    href: AutoShopWeb,
+    src: AutoShopWeb,
     alt: "Auto aftermarket website",
   },
 ];
