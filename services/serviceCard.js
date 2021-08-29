@@ -42,7 +42,7 @@ const serviceCard = [
           <br /> the latest and best
           <br /> technologies released to keep
           <br /> your website performance high
-          <br /> and satisfying
+        
         </p>
 
         <p className="lg:block hidden">
