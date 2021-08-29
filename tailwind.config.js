@@ -1,6 +1,5 @@
 module.exports = {
   mode: "jit",
-  enabled: true,
   purge: {
     content: ["pages/**/*.js", "components/*.jsx", "services/*.js"],
     options: { keyframes: true, fontFace: true },
