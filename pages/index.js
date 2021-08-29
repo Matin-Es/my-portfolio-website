@@ -15,7 +15,11 @@ const Home = () => {
     <>
       <Head>
         <title>Matin Esmaili</title>
-        <meta name="Web developer" content="Web Programming" />
+        <meta
+          name="description"
+          content="Matin Esmaili Junior Reactjs Developer"
+        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
