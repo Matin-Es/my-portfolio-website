@@ -1,11 +1,6 @@
 module.exports = {
   mode: "jit",
-  purge: {
-    content: [
-      "./pages/**/*.{js,jsx,ts,tsx}",
-      "./components/*.{js,jsx,ts,tsx}",
-    ],
-  },
+  purge: { content: ["src/**/*.js", "src/**/*.jsx", "public/**/*.html"] },
   darkMode: false, // or 'media' or 'class'
   future: {
     removeDeprecatedGapUtilities: true,
