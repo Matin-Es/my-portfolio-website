@@ -1,6 +1,6 @@
 module.exports = {
   mode: "jit",
-  purge: { content: ["pages/**/*.js", "components/*.jsx"] },
+  purge: { content: ["pages/**/*.js", "components/*.jsx", "services/*.js"] },
   enabled: process.env.NODE_ENV === "production",
   darkMode: false, // or 'media' or 'class'
   future: {
