@@ -7,9 +7,10 @@ const ServiceCard = (props) => {
         <Image
           className="animate-pulse"
           src={props.image}
+          alt={props.alt}
           width={45}
           height={45}
-          alt={props.alt}
+      
         />
         <h3 className="text-center text-2xl mt-1 text-gray-500">
           {props.title}

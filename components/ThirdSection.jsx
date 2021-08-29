@@ -19,6 +19,7 @@ const ThirdSection = () => {
               key={e._id}
               className={className}
               image={e.image}
+              alt={e.alt}
               title={e.title}
               description={e.description}
             />
