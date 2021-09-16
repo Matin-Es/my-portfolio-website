@@ -4,7 +4,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import { Link } from "react-scroll";
-import Logo from "../public/assets/MehrabEs_Logo/vector/default.svg";
+import Logo from "../public/assets/MatinEs_Logo/MatinEsLogo.png";
 
 const navigation = [
   { name: "Services", to: "services", current: false },
@@ -62,8 +62,8 @@ export default function ResponsiveNavBar() {
                       className="h-6 w-6"
                       aria-hidden="true"
                       src={Logo}
-                      width={195}
-                      height={120}
+                      width={150}
+                      height={100}
                       alt="Logo"
                     />
                   </Link>

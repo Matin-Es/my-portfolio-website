@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Link } from "react-scroll";
-import Logo from "../public/assets/MehrabEs_Logo/vector/default.svg";
+import Logo from "../public/assets/MatinEs_Logo/MatinEsLogo.png";
 
 const NavBar = () => {
   return (
@@ -66,7 +66,7 @@ const NavBar = () => {
         </ul>
         <div className="relative ml-auto min-w-max cursor-pointer sm:bottom-5 sm:right-20 md:top-0 md:left-0">
           <Link href="/" rel="noreferrer" passHref={true}>
-            <Image src={Logo} width={195} height={120} alt="Logo" />
+            <Image  src={Logo} width={190} height={160} alt="Logo" />
           </Link>
         </div>
       </nav>
