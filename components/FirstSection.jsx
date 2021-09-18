@@ -13,7 +13,7 @@ const FirstSection = () => {
         </div>
         <div className="pl-40 pt-10 text">
           <h1 className="text-3xl md:text-4xl lg:text-5xl pb-3 lg:left-0 text-gray-600 sm:text-4xl sm:relative sm:right-0  md:sticky lg:relative lg:right-20 md:text-left">
-            Matin Esmaili
+            <div className="inline-block md:hidden">&nbsp;</div> Matin Esmaili
           </h1>
           <div className="text-center text-gray-600 sm:relative relative sm:right-16 sm:text-center pb-11 w-96 h-1 lg:relative xl:text-left xl:right-96  md:text-left md:left-0 lg:text-left lg:top-0 lg:right-96 sm:top-0 top-0 right-20 font-mono text-lg sm:text-lg">
             <Typewriter
@@ -26,18 +26,18 @@ const FirstSection = () => {
           </div>
           <p className="mt-10 text-gray-600 text-xl hidden md:block lg:hidden ">
             Hello folks, my name is Matin <br />
-            and I was born in March 2001 <br /> in Sari I started programming
+            and I was born in March 2003 <br /> in Sari I started programming
             <br />
             since 2018 and I try to <br /> keep my skills up to date with
             <br /> the new technologies
           </p>
           <p className="mt-10 text-gray-600 text-xl hidden lg:relative lg:left-0 lg:block sm:block sm:text-center md:hidden md:text-center lg:text-left sm:relative sm:right-20">
-            Hello folks, my name is Matin and I was born <br /> in March 2001 in
+            Hello folks, my name is Matin and I was born <br /> in March 2003 in
             Sari <br /> I started programming since 2018 and I try to <br />{" "}
             keep my skills up to date with the new <br /> technologies
           </p>
           <p className="mt-10 mr-44 text-gray-600 text-xl text-center block sm:hidden ">
-            Hello folks, my name is Matin and I was born in March 2001 in Sari I
+            Hello folks, my name is Matin and I was born in March 2003 in Sari I
             started programming since 2018 and I try to keep my skills up to
             date with the new technologies
           </p>
