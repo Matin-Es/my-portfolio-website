@@ -5,6 +5,8 @@ import Whatsapp from "../public/assets/icon/whatsapp.png";
 import Telegram from "../public/assets/icon/telegram.png";
 import Instagram from "../public/assets/icon/instagram.png";
 import Email from "../public/assets/icon/email.png";
+import LinkedIn from "../public/assets/icon/linkedin.png";
+import Github from "../public/assets/icon/github.png";
 
 const SixthSection = () => {
   return (
@@ -26,7 +28,7 @@ const SixthSection = () => {
           <div className="flex justify-center ml-2 mr-5">
             <div className="mx-2">
               <a
-                href="https://web.whatsapp.com/send?phone=%2B989333648797&text&app_absent=0"
+                href="https://wa.me/989333648797"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -81,6 +83,36 @@ const SixthSection = () => {
                   width={30}
                   height={30}
                   alt="email icon"
+                />
+              </a>
+            </div>
+            <div className="mx-2">
+              <a
+                href="https://linkedin.com/in/matin-esmaili-768995208"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
+                  src={LinkedIn}
+                  width={30}
+                  height={30}
+                  alt="LinkedIn icon"
+                />
+              </a>
+            </div>
+            <div className="mx-2">
+              <a
+                href="https://github.com/Matin-Es"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className="transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-75"
+                  src={Github}
+                  width={30}
+                  height={30}
+                  alt="Github icon"
                 />
               </a>
             </div>

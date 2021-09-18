@@ -27,7 +27,7 @@ const FirstSection = () => {
        
           <p className="mt-10 mr-44 text-gray-600 text-xl text-center block md:text-left ">
             Hello people, my name is Matin and <br/> I was born in March 2003 in Sari <br/> I
-            started programming since 2018 <br/> and I try to keep my skills up to
+            started programming as a front-end developer since 2018 <br/> and I try to keep my skills up to
             date <br/>with the new technologies
           </p>
           <div className="mt-6 ml-10 md:relative md:right-10">
