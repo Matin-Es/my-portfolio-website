@@ -88,7 +88,7 @@ const SixthSection = () => {
             </div>
             <div className="mx-2">
               <a
-                href="https://linkedin.com/in/matin-esmaili-768995208"
+                href="https://linkedin.com/in/matinesmaili"
                 target="_blank"
                 rel="noreferrer"
               >
