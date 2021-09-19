@@ -19,7 +19,7 @@ const PlanCard = (props) => {
       <p className="mt-2 text-gray-600 text-xl">{props.price}</p>
       <div className="mt-2">
         <a
-          href="https://web.whatsapp.com/send?phone=%2B989333648797&text&app_absent=0"
+          href="https://wa.me/989333648797"
           target="_blank"
           className="inline-block px-6 py-2 rounded-3xl bg-gray-600 text-white hover:bg-white hover:text-gray-700 hover:border-gray-600 transition-colors border"
           rel="noreferrer"
