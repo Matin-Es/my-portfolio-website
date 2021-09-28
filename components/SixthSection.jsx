@@ -37,7 +37,7 @@ const SixthSection = () => {
                   src={Whatsapp}
                   width={30}
                   height={30}
-                  alt="whatsapp icon"
+                  alt="Whatsapp icon"
                 />
               </a>
             </div>
@@ -52,7 +52,7 @@ const SixthSection = () => {
                   src={Telegram}
                   width={30}
                   height={30}
-                  alt="telegram icon"
+                  alt="Telegram icon"
                 />
               </a>
             </div>
@@ -67,7 +67,7 @@ const SixthSection = () => {
                   src={Instagram}
                   width={30}
                   height={30}
-                  alt="instagram icon"
+                  alt="Instagram icon"
                 />
               </a>
             </div>
@@ -82,7 +82,7 @@ const SixthSection = () => {
                   src={Email}
                   width={30}
                   height={30}
-                  alt="email icon"
+                  alt="Email icon"
                 />
               </a>
             </div>

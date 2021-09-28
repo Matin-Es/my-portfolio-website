@@ -7,7 +7,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
     image: Uiux,
-    alt: "UI/UX",
+    alt: "UI/UX icon",
     title: "UI/UX",
     description: (
       <>
@@ -31,7 +31,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471816",
     image: Performance,
-    alt: "Performance",
+    alt: "Performance icon",
     title: "Performance",
     description: (
       <>
@@ -56,7 +56,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471817",
     image: Seo,
-    alt: "SEO",
+    alt: "SEO icon",
     title: "SEO",
     description: (
       <>
@@ -80,7 +80,7 @@ const serviceCard = [
   {
     _id: "5b21ca3eeb7f6fbccd471818",
     image: Support,
-    alt: "Support",
+    alt: "Support icon",
     title: "Support",
     description: (
       <>
