@@ -1,0 +1,35 @@
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/Basic_plan.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/email.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/github.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/instagram.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/linkedin.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/Premium_Plan.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/seo.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/support.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/telegram.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/uiux_design.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/Ultimate_plan.png
+
+User-agent: Googlebot-Image
+Disallow: /public/assets/icon/whatsapp.png
