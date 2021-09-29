@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Matin Esmaili | Web Developer</title>
+        <title>Matin Esmaili - Web Developer</title>
         <meta name="description" content="Matin Esmaili Reactjs Developer" />
         <meta name="robots" content="index,fallow" />
 
