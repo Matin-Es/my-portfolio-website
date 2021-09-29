@@ -51,6 +51,8 @@ const Home = () => {
 
         <meta name="author" content="متین اسماعیلی" />
 
+        <meta name="google-site-verification" content="Xu1mg19rMHvQEGk6otoD1lHmjoMxuUruVX1tlym8wo0" />
+
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="canonical" href="https://matinesmaili.ir" />
         <link rel="icon" href="/favicon.ico" />
