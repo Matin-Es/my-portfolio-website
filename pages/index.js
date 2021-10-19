@@ -16,7 +16,7 @@ const Home = () => {
       <Head>
         <title>Matin Esmaili - Web Developer</title>
         <meta name="description" content="Matin Esmaili Reactjs Developer" />
-        <meta name="robots" content="index,fallow" />
+        <meta name="robots" content="index,follow" />
 
         <meta property="og:type" content="personal" />
         <meta property="og:title" content="Matin Esmaili" />
@@ -50,6 +50,8 @@ const Home = () => {
         <meta name="owner" content="Matin Esmaili" />
 
         <meta name="author" content="متین اسماعیلی" />
+
+        <meta name="keywords" content="Matin Esmaili,متین اسماعیلی, Programming, برنامه نویسی , طراحی سایت" />
 
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="canonical" href="https://matinesmaili.ir" />
