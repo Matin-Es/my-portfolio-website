@@ -12,6 +12,7 @@ const WorkSamples = (props) => {
           alt={props.alt}
           width={240}
           height={116.72}
+          quality={100}
         />
       </a>
     </div>

@@ -23,7 +23,7 @@ const workSamples = [
     _id: "5b21ca3eeb7f6fbccd471817",
     href: Varzesh3,
     src: Varzesh3,
-    alt: "Varzesh 3 website",
+    alt: "Ratin Admin Panel",
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
@@ -35,19 +35,19 @@ const workSamples = [
     _id: "5b21ca3eeb7f6fbccd47181a",
     href: ShoeShop1,
     src: ShoeShop1,
-    alt: "online shoe shop",
+    alt: "Finogen WebDesigning website",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181b",
     href: OnlineInvest,
     src: OnlineInvest,
-    alt: "Online investment website",
+    alt: "Online Shoe Shop",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181e",
     href: ShoeShop2,
     src: ShoeShop2,
-    alt: "Online shoe shop",
+    alt: "Disel Website",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
