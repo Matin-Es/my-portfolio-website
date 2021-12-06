@@ -49,9 +49,9 @@ const Home = () => {
         <meta name="author" content="Matin Esmaili" />
         <meta name="owner" content="Matin Esmaili" />
 
-        <meta name="author" content="متین اسماعیلی" />
+        <meta name="author" content="Matin Esmaili" />
 
-        <meta name="keywords" content="Matin Esmaili,متین اسماعیلی, Programming, برنامه نویسی , طراحی سایت" />
+        <meta name="keywords" content="Matin Esmaili,متین اسماعیلی, متین اسمعیلی,matines,matinesmaili,Programming, برنامه نویسی , طراحی سایت" />
 
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="canonical" href="https://matinesmaili.ir" />
