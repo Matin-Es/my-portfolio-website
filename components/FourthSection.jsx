@@ -17,7 +17,7 @@ const FourthSection = () => {
               <div className="p-7 -mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {workSamples.map((e, _id) => {
                   return (
-                    <div data-aos="zoom-in">
+                    <div key={1} data-aos="zoom-in">
                     <WorkSamples
                       key={_id}
                       href={e.href}

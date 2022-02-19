@@ -8,49 +8,49 @@ import ShoeShop2 from "../public/assets/img/portfolio/7.jpg";
 import AutoShopWeb from "../public/assets/img/portfolio/8.jpg";
 const workSamples = [
   {
-    _id: "5b21ca3eeb7f6fbccd471815",
+    _id: "1",
     href: AdminPanel,
     src: AdminPanel,
     alt: "Admin panel",
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471816",
+    _id: "2",
     href: BahrAcademy,
     src: BahrAcademy,
     alt: "Bahr Academy website",
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471817",
+    _id: "3",
     href: Varzesh3,
     src: Varzesh3,
     alt: "Ratin Admin Panel",
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471819",
+    _id: "4",
     href: ArtistWeb,
     src: ArtistWeb,
     alt: "Artist's personal Website",
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181a",
+    _id: "5",
     href: ShoeShop1,
     src: ShoeShop1,
     alt: "Finogen WebDesigning website",
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181b",
+    _id: "6",
     href: OnlineInvest,
     src: OnlineInvest,
     alt: "Online Shoe Shop",
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181e",
+    _id: "7",
     href: ShoeShop2,
     src: ShoeShop2,
     alt: "Disel Website",
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181f",
+    _id: "8",
     href: AutoShopWeb,
     src: AutoShopWeb,
     alt: "Auto aftermarket website",
