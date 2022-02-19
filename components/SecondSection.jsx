@@ -8,9 +8,9 @@ const SecondSection = () => {
     <section className="bg-white pt-7 w-screen mt-7 sm:mt-7">
       <div className="container mx-auto">
         <div className="flex justify-center text-gray-600 text-2xl">
-          <h2 id={styles.headingWithLines}>My skills</h2>
+          <h2 id={styles.headingWithLines}>My experiences</h2>
         </div>
-        <div className="flex justify-center">
+        <div id="experiences" className="flex justify-center">
           <div className="mx-auto">
             <div className="p-7 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5">
               {" "}
@@ -28,7 +28,7 @@ const SecondSection = () => {
           </div>
         </div>
         <div className="flex justify-center text-gray-600 text-2xl mt-12">
-          <h2 id={styles.headingWithLines}>Other skills</h2>
+          <h2 id={styles.headingWithLines}>Other experiences</h2>
         </div>
         <div className="flex text-center justify-center mt-4 text-xl text-gray-600 pb-7">
           {" "}

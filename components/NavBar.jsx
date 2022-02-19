@@ -7,18 +7,32 @@ const NavBar = () => {
     <div className="container mx-auto hidden sm:block ">
       <nav className="flex items-center justify-center mx-auto">
         <ul className="inline-flex text-xl pb-14 text-gray-600 ">
-          <li className="ml-3 mr-10 sm:ml-36 md:ml-3 cursor-pointer">
+        <li className="ml-3 mr-10 sm:ml-36 md:ml-3 cursor-pointer">
             {" "}
             <Link
               activeClass="active"
-              to="services"
+              to="about"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
             >
               {" "}
-              Services
+              About
+            </Link>
+          </li>
+          <li className="ml-3 mr-10 sm:ml-36 md:ml-3 cursor-pointer">
+            {" "}
+            <Link
+              activeClass="active"
+              to="experiences"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {" "}
+              Experiences
             </Link>
           </li>
           <li className="ml-10 mr-10 cursor-pointer">
@@ -35,7 +49,7 @@ const NavBar = () => {
               Portfolio
             </Link>
           </li>
-          <li className="ml-10 mr-10 cursor-pointer">
+          {/* <li className="ml-10 mr-10 cursor-pointer">
             {" "}
             <Link
               activeClass="active"
@@ -48,7 +62,7 @@ const NavBar = () => {
               {" "}
               Pricing
             </Link>
-          </li>
+          </li> */}
           <li className="ml-10 mr-10 sm:mr-20 md:mr-10 cursor-pointer">
             {" "}
             <Link

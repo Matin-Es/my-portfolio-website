@@ -1,4 +1,4 @@
-import React from "react";
+import Ripples from 'react-ripples'
 
 const ContactForm = () => {
   return (
@@ -52,6 +52,7 @@ const ContactForm = () => {
         </div>
 
         <div className="flex justify-center">
+        <Ripples className="rounded-3xl"> 
           <button
             type="submit"
             className="group relative w-20 flex justify-center py-2 px-16 border border-transparent text-lg font-medium rounded-3xl text-white bg-gray-700 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
@@ -59,6 +60,7 @@ const ContactForm = () => {
             <span className="absolute left-0 inset-y-0 flex items-center pl-3"></span>
             Send
           </button>
+          </Ripples>
         </div>
       </form>
     </div>

@@ -61,9 +61,7 @@ const Home = () => {
       <ResponsiveNavBar />
       <FirstSection />
       <SecondSection />
-      <ThirdSection />
       <FourthSection />
-      <FifthSection />
       <SixthSection />
       <SeventhSection />
       <ScrollToTop />

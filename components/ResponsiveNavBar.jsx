@@ -7,9 +7,9 @@ import { Link } from "react-scroll";
 import Logo from "../public/assets/MatinEs_Logo/MatinEsLogo.png";
 
 const navigation = [
-  { name: "Services", to: "services", current: false },
+  { name: "About", to: "about", current: false },
+  { name: "Experiences", to: "experiences", current: false },
   { name: "Portfolio", to: "portfolio", current: false },
-  { name: "Pricing", to: "pricing", current: false },
   { name: "Contact", to: "contact", current: false },
 ];
 

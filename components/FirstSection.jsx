@@ -1,14 +1,26 @@
+import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
 import MyImage from "./../public/assets/img/Matin.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import Ripples from 'react-ripples'
+
 
 const FirstSection = () => {
+
+  useEffect(() => {
+    setTimeout(() => {AOS.init({ duration: 600,})},0)
+    },[])
+
   return (
     <div className="container mx-auto flex justify-center ">
-      <div className=" flex w-max ">
-        {" "}
+      <div id="about" className=" flex w-max ">
+        
+      <div data-aos="fade-right">
+
         <div className="min-w-max self-center hidden md:block md:relative md:left-20 md:top-8 lg:top-8 lg:left-0">
-          {" "}
+          
           <Image
             src={MyImage}
             quality={100}
@@ -16,8 +28,11 @@ const FirstSection = () => {
             height={499}
             alt="Picture of the author"
           />
+      
+        </div>
         </div>
         <div className="pl-40 pt-10 text">
+       
           <h1 className="text-3xl md:text-4xl lg:text-5xl pb-3 lg:left-0 text-gray-600 sm:text-4xl sm:relative sm:right-0  md:sticky lg:relative lg:right-20 md:text-left">
             <span className="inline-block md:hidden">&nbsp;</span> Matin Esmaili
           </h1>
@@ -40,15 +55,20 @@ const FirstSection = () => {
             <p>and I love to to keep my skills up to date</p>
             <p>with the new technologies</p>
           </div>
-          <div className="mt-6 ml-10 md:relative md:right-10">
+         
+          <button className="mt-6 ml-10 md:relative md:right-10">
+          <Ripples className="rounded-3xl">
             <a
               href="/assets/files/Resume-Matin-Esmaili.pdf"
               className="inline-block sm:px-8 sm:py-3 px-4 py-2 rounded-3xl bg-gray-600 text-white hover:bg-brandbg hover:text-gray-700 hover:border-gray-600 transition-colors border"
             >
               Downlaod CV
             </a>
-          </div>
+            </Ripples>
+          </button>
+        
         </div>
+       
       </div>
     </div>
   );

@@ -1,7 +1,11 @@
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 const SkillBars = (props) => {
+
+ 
+
   return (
+    <div data-aos="fade-up">
     <div className="max-w-skillBarsWidth min-w-skillBarsWidth mx-5 sm:mx-10 max-h-full text-center sm:text-2xl text-sm mt-16">
       <CircularProgressbar
         value={props.value}
@@ -20,7 +24,9 @@ const SkillBars = (props) => {
           backgroundColor: "#707070",
         })}
       />
+      
       <h3 className="text-2xl md:text-lg">{props.skillTitle}</h3>
+    </div>
     </div>
   );
 };
