@@ -38,6 +38,7 @@ const SixthSection = () => {
                   width={30}
                   height={30}
                   alt="Whatsapp"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -53,6 +54,7 @@ const SixthSection = () => {
                   width={30}
                   height={30}
                   alt="Telegram"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -68,6 +70,7 @@ const SixthSection = () => {
                   width={30}
                   height={30}
                   alt="Instagram"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -83,6 +86,7 @@ const SixthSection = () => {
                   width={30}
                   height={30}
                   alt="Email"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -98,6 +102,7 @@ const SixthSection = () => {
                   width={30}
                   height={30}
                   alt="LinkedIn"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -113,6 +118,7 @@ const SixthSection = () => {
                   width={30}
                   height={30}
                   alt="Github"
+                  loading="lazy"
                 />
               </a>
             </div>

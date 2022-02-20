@@ -27,6 +27,7 @@ const FirstSection = () => {
             width={350}
             height={499}
             alt="Picture of the author"
+            loading="lazy"
           />
       
         </div>

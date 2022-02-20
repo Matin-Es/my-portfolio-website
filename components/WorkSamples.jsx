@@ -13,6 +13,7 @@ const WorkSamples = (props) => {
           width={240}
           height={116.72}
           quality={100}
+          loading="lazy"
         />
       </a>
     </div>
